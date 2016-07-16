@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DBEBA49FFE6D354A7908EF1A61096B0BBADFC292",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DBEBA49FFE6D354A7908EF1A61096B0BBADFC292" : 0,
+    "9F7CC8580B708AB49ED1184EBF6BF00FC103F59D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AC177954-8CF8-4EE6-ADDF-7583EF768A93",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DBEBA49FFE6D354A7908EF1A61096B0BBADFC292" : "Objective-C\/",
+    "9F7CC8580B708AB49ED1184EBF6BF00FC103F59D" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Insta-Kilo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Insta-Kilo\/Insta-Kilo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com\/sleepyUdon\/LighthouseLab",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F7CC8580B708AB49ED1184EBF6BF00FC103F59D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:sleepyUdon\/Lighthouse-Lab.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DBEBA49FFE6D354A7908EF1A61096B0BBADFC292"
+    }
+  ]
+}
