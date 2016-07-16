@@ -1,20 +1,22 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DBEBA49FFE6D354A7908EF1A61096B0BBADFC292",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E3190FAADC08EE1B7D32C3149CB9A65D0D9292D4",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E3190FAADC08EE1B7D32C3149CB9A65D0D9292D4" : 0,
     "DBEBA49FFE6D354A7908EF1A61096B0BBADFC292" : 0,
     "9F7CC8580B708AB49ED1184EBF6BF00FC103F59D" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AC177954-8CF8-4EE6-ADDF-7583EF768A93",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "DBEBA49FFE6D354A7908EF1A61096B0BBADFC292" : "Objective-C\/",
-    "9F7CC8580B708AB49ED1184EBF6BF00FC103F59D" : ""
+    "E3190FAADC08EE1B7D32C3149CB9A65D0D9292D4" : "Insta-Kilo\/",
+    "DBEBA49FFE6D354A7908EF1A61096B0BBADFC292" : "",
+    "9F7CC8580B708AB49ED1184EBF6BF00FC103F59D" : ".."
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Insta-Kilo",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Insta-Kilo\/Insta-Kilo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Insta-Kilo.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com\/sleepyUdon\/LighthouseLab",
@@ -25,6 +27,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:sleepyUdon\/Lighthouse-Lab.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DBEBA49FFE6D354A7908EF1A61096B0BBADFC292"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sleepyUdon\/InstaKilo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E3190FAADC08EE1B7D32C3149CB9A65D0D9292D4"
     }
   ]
 }

@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		7C717DFE1D3AA11F00A174A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C717DFD1D3AA11F00A174A3 /* main.m */; };
 		7C717E011D3AA11F00A174A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C717E001D3AA11F00A174A3 /* AppDelegate.m */; };
-		7C717E041D3AA11F00A174A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C717E031D3AA11F00A174A3 /* ViewController.m */; };
 		7C717E071D3AA11F00A174A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C717E051D3AA11F00A174A3 /* Main.storyboard */; };
 		7C717E091D3AA11F00A174A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C717E081D3AA11F00A174A3 /* Assets.xcassets */; };
 		7C717E0C1D3AA11F00A174A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C717E0A1D3AA11F00A174A3 /* LaunchScreen.storyboard */; };
 		7C717E171D3AA11F00A174A3 /* Insta_KiloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C717E161D3AA11F00A174A3 /* Insta_KiloTests.m */; };
 		7C717E221D3AA11F00A174A3 /* Insta_KiloUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C717E211D3AA11F00A174A3 /* Insta_KiloUITests.m */; };
+		7C717E311D3AA22600A174A3 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C717E301D3AA22600A174A3 /* CustomCollectionViewCell.m */; };
+		7C717E341D3AA2C900A174A3 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C717E331D3AA2C900A174A3 /* Photo.m */; };
+		7C717E371D3AA41D00A174A3 /* CustomCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C717E361D3AA41D00A174A3 /* CustomCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		7C717DFD1D3AA11F00A174A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C717DFF1D3AA11F00A174A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7C717E001D3AA11F00A174A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7C717E021D3AA11F00A174A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7C717E031D3AA11F00A174A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7C717E061D3AA11F00A174A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C717E081D3AA11F00A174A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C717E0B1D3AA11F00A174A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,12 @@
 		7C717E1D1D3AA11F00A174A3 /* Insta-KiloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Insta-KiloUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C717E211D3AA11F00A174A3 /* Insta_KiloUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Insta_KiloUITests.m; sourceTree = "<group>"; };
 		7C717E231D3AA11F00A174A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C717E2F1D3AA22600A174A3 /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		7C717E301D3AA22600A174A3 /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
+		7C717E321D3AA2C900A174A3 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		7C717E331D3AA2C900A174A3 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		7C717E351D3AA41D00A174A3 /* CustomCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewController.h; sourceTree = "<group>"; };
+		7C717E361D3AA41D00A174A3 /* CustomCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +109,13 @@
 			children = (
 				7C717DFF1D3AA11F00A174A3 /* AppDelegate.h */,
 				7C717E001D3AA11F00A174A3 /* AppDelegate.m */,
-				7C717E021D3AA11F00A174A3 /* ViewController.h */,
-				7C717E031D3AA11F00A174A3 /* ViewController.m */,
+				7C717E351D3AA41D00A174A3 /* CustomCollectionViewController.h */,
+				7C717E361D3AA41D00A174A3 /* CustomCollectionViewController.m */,
+				7C717E2F1D3AA22600A174A3 /* CustomCollectionViewCell.h */,
+				7C717E301D3AA22600A174A3 /* CustomCollectionViewCell.m */,
 				7C717E051D3AA11F00A174A3 /* Main.storyboard */,
+				7C717E321D3AA2C900A174A3 /* Photo.h */,
+				7C717E331D3AA2C900A174A3 /* Photo.m */,
 				7C717E081D3AA11F00A174A3 /* Assets.xcassets */,
 				7C717E0A1D3AA11F00A174A3 /* LaunchScreen.storyboard */,
 				7C717E0D1D3AA11F00A174A3 /* Info.plist */,
@@ -207,6 +217,7 @@
 				TargetAttributes = {
 					7C717DF81D3AA11F00A174A3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 256HHE87HY;
 					};
 					7C717E111D3AA11F00A174A3 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -270,9 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C717E041D3AA11F00A174A3 /* ViewController.m in Sources */,
 				7C717E011D3AA11F00A174A3 /* AppDelegate.m in Sources */,
 				7C717DFE1D3AA11F00A174A3 /* main.m in Sources */,
+				7C717E341D3AA2C900A174A3 /* Photo.m in Sources */,
+				7C717E371D3AA41D00A174A3 /* CustomCollectionViewController.m in Sources */,
+				7C717E311D3AA22600A174A3 /* CustomCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +426,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Insta-Kilo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "VivianeChan.Insta-Kilo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +440,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Insta-Kilo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "VivianeChan.Insta-Kilo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
