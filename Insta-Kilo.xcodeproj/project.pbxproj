@@ -17,6 +17,7 @@
 		7C717E311D3AA22600A174A3 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C717E301D3AA22600A174A3 /* CustomCollectionViewCell.m */; };
 		7C717E341D3AA2C900A174A3 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C717E331D3AA2C900A174A3 /* Photo.m */; };
 		7C717E371D3AA41D00A174A3 /* CustomCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C717E361D3AA41D00A174A3 /* CustomCollectionViewController.m */; };
+		7C717E3D1D3B1EE300A174A3 /* HeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C717E3C1D3B1EE300A174A3 /* HeaderCollectionReusableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		7C717E331D3AA2C900A174A3 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 		7C717E351D3AA41D00A174A3 /* CustomCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewController.h; sourceTree = "<group>"; };
 		7C717E361D3AA41D00A174A3 /* CustomCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewController.m; sourceTree = "<group>"; };
+		7C717E3B1D3B1EE300A174A3 /* HeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		7C717E3C1D3B1EE300A174A3 /* HeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCollectionReusableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				7C717E2F1D3AA22600A174A3 /* CustomCollectionViewCell.h */,
 				7C717E301D3AA22600A174A3 /* CustomCollectionViewCell.m */,
 				7C717E051D3AA11F00A174A3 /* Main.storyboard */,
+				7C717E3B1D3B1EE300A174A3 /* HeaderCollectionReusableView.h */,
+				7C717E3C1D3B1EE300A174A3 /* HeaderCollectionReusableView.m */,
 				7C717E321D3AA2C900A174A3 /* Photo.h */,
 				7C717E331D3AA2C900A174A3 /* Photo.m */,
 				7C717E081D3AA11F00A174A3 /* Assets.xcassets */,
@@ -281,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C717E3D1D3B1EE300A174A3 /* HeaderCollectionReusableView.m in Sources */,
 				7C717E011D3AA11F00A174A3 /* AppDelegate.m in Sources */,
 				7C717DFE1D3AA11F00A174A3 /* main.m in Sources */,
 				7C717E341D3AA2C900A174A3 /* Photo.m in Sources */,

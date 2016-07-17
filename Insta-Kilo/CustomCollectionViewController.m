@@ -9,6 +9,7 @@
 #import "CustomCollectionViewController.h"
 #import "CustomCollectionViewCell.h"
 #import "Photo.h"
+#import "HeaderCollectionReusableView.h"
 
 @interface CustomCollectionViewController ()
 
@@ -21,6 +22,7 @@
 @property (nonatomic) NSArray *locationKeys;
 @property (nonatomic) NSArray *subjectKeys;
 @property (nonatomic) NSArray *currentKeys;
+@property (nonatomic) Photo *photo;
 
 @end
 
@@ -144,15 +146,18 @@ static NSString * const reuseIdentifier = @"Cell";
     CustomCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
     
     cell.imageView.image = [UIImage imageNamed:photo.imageFileName];
-//    self.Title.text = photo.imageName;
     
     return cell;
 }
 
+
+
+
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
 {
-        UICollectionReusableView *header = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"collectionHeaderView" forIndexPath:indexPath];
-        return header;
+        HeaderCollectionReusableView *headerView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"HeaderView" forIndexPath:indexPath];
+        headerView.title.text = self.currentKeys[indexPath.section];
+    return headerView;
 }
 
 
