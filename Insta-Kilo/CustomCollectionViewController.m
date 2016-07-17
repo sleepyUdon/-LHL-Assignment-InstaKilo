@@ -84,19 +84,15 @@ static NSString * const reuseIdentifier = @"Cell";
     //        }
     //    }
     
-    //checkpoint: arrays are ready
-    //        NSLog(@"%@", allPictures);
-    //        NSLog(@"%@", vacationPictures);
-    //        NSLog(@"%@", brusselsPictures);
     
     //create Dictionaries
     
     self.picturesBySubject = @{@"Vacation": @[photo1, photo2, photo3],
                                @"Work": @[photo4, photo6, photo5],
-                               @"Holiday": @[photo6, photo7, photo8]};
+                               @"Holiday": @[photo6, photo9, photo10]};
     
-    self.picturesByLocation = @{@"Toronto": @[photo1, photo2, photo3],
-                                @"Vancouver": @[photo4, photo6, photo5],
+    self.picturesByLocation = @{@"Toronto": @[photo4, photo5, photo6],
+                                @"Vancouver": @[photo3, photo2, photo1],
                                 @"Brussels": @[photo6, photo7, photo8]};
     
     self.locationKeys = @[@"Toronto", @"Vancouver", @"Brussels"];
@@ -160,5 +156,18 @@ static NSString * const reuseIdentifier = @"Cell";
     return headerView;
 }
 
+
+- (IBAction)changeInterface:(id)sender {
+    if (self.segmentedControl.selectedSegmentIndex == 0) {
+        self.currentKeys = self.subjectKeys;
+        self.currentDict = self.picturesBySubject;
+        [self.collectionView reloadData];
+    } else if(self.segmentedControl.selectedSegmentIndex == 1) {
+        self.currentKeys = self.locationKeys;
+        self.currentDict = self.picturesByLocation;
+        [self.collectionView reloadData];
+    }
+
+}
 
 @end

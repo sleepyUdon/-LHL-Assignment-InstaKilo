@@ -10,6 +10,11 @@
 #import "Photo.h"
 
 @interface CustomCollectionViewController : UICollectionViewController
-//@property (weak, nonatomic) IBOutlet UILabel *Title;
+
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
+
+- (IBAction)changeInterface:(id)sender;
+
+
 
 @end
